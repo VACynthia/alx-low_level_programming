@@ -10,10 +10,14 @@
 
 int main(void)
 {
-	char i;
+	char k;
 
-	for (i = 'a' ; i <= 'z' ; i++)
-		putchar (i);
-	putchar ('\n');
-		return (0);
+	k = 'a';
+	while (k <= 'z')
+	{
+		putchar(k); /* specifier for type char variables */
+		k++;
+	}
+	putchar('\n'); /* only single quites for putchar */
+	return (0);
 }
