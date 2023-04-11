@@ -10,7 +10,7 @@
  */
 
 int _islower(int c)
-{
+{	/* the ASCII value of lowercase letters from a to z */
 	if (c >= 97 && c <= 122)
 		return (1);
 	else
