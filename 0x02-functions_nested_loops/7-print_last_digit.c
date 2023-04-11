@@ -9,7 +9,7 @@
  */
 
 int print_last_digit(int i)
-{
+{	/* k represents the last digit of i */
 	int k;
 
 	k = i % 10;
