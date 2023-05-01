@@ -3,16 +3,16 @@
 /**
  * main - program that prints its name
  * @argv: array of pointer to string
- * @argc: number of arguments on command line
+ * @argc: unused parameter
  *
  * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	printf("argc = %d\n", argc);
+	(void)argc;
 	/* Address of first element of array is the program name */
-	printf("%s\n", *argv);
+	printf("%p\n", *argv);
 
 	return (0);
 }
