@@ -12,11 +12,9 @@ int main(int argc, char **argv)
 {
 	int y;
 
-	printf("argc = %d\n", argc);
-
-	if (y < argv[])
+	for (y = 0 ; y < argc ; y++)
 	{
-		_putchar(y);
+		printf("%s\n", argv[y]);
 	}
 	return (0);
 }
