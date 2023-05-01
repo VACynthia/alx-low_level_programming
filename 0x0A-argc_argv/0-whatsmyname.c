@@ -2,13 +2,13 @@
 
 /**
  * main - program that prints its name
- * @argc: number of arguments on command line
  * @argv: array of pointer to string
+ * @argc: number of arguments on command line
  *
  * Return: 0
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	printf("argc = %d\n", argc);
 	/* Address of first element of array is the program name */
