@@ -11,8 +11,9 @@
 int main(int argc, char *argv[])
 {
 	(void)argc;
+
 	/* Address of first element of array is the program name */
-	printf("%p\n", *argv);
+	printf("%s\n", argv[0]);
 
 	return (0);
 }
